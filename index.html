@@ -15,17 +15,18 @@
     <section id="formulario" class="padded">
         <div class="container">
             <h1>Calculadora IMCa*</h1>
-            <p>"Tu bienestar no cabe en una fórmula estándar. Por eso ajustamos el IMC a ti."</p>
+            <p>"Tu bienestar no cabe en una fórmula estándar.<br> Por eso ajustamos el IMC a ti."</p>
             <div class="row">
                     <div class="col">
+                        <p>Ingrese su datos:</p>
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="Ingrese su altura en metros">
+                            <input type="number" class="form-control" placeholder="Altura en metros">
                         </div>
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="Ingrese su peso en kilogramos">
+                            <input type="number" class="form-control" placeholder="Peso en kilogramos">
                         </div>
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="Ingrese su edad">
+                            <input type="number" class="form-control" placeholder="Edad">
                         </div>
                         <div class="form-group">
                             <select type="text" class="form-control">
@@ -44,16 +45,7 @@
                     <div class="col img">
                         <figure class="borde-img">
                             <img src="images/fotoreferencia.svg" alt="Silueta de referencia">
-                            <svg viewBox="0 0 200 200" class="texto-curvo">
-                                <defs>
-                                    <path id="circuloTexto" d="M100,100 m-75,0 a75,75 0 1,1 150,0 a75,75 0 1,1 -150,0" />
-                                </defs>
-                            <text>
-                                <textPath id="categoria-imc" href="#circuloTexto" startOffset="50%" text-anchor="middle">
-                                    Categoría
-                                </textPath>
-                            </text>
-                            </svg>
+                            <figcaption id="categoria-imc">Categoría</figcaption>
                         </figure>
                          
                     </div>
@@ -66,7 +58,7 @@
     <p id="descripcion-imc"></p>
     </section>
 
-    <footer> <a href="https://github.com/Johanna0604" target="_blank"><i class="fa-brands fa-github"></i></a> </footer>
+    <footer> <a href="https://github.com/Johanna0604" target="_blank"><img class="logo-github" src="images/logo-github.svg" alt="logogithub"></a> </footer>
 
     <script src="lomasyuca.js"></script>
 </body>

@@ -1,7 +1,7 @@
 // Seleccionamos los elementos
-const alturaInput = document.querySelector('input[placeholder="Ingrese su altura en metros"]');
-const pesoInput = document.querySelector('input[placeholder="Ingrese su peso en kilogramos"]');
-const edadInput = document.querySelector('input[placeholder="Ingrese su edad"]');
+const alturaInput = document.querySelector('input[placeholder="Altura en metros"]');
+const pesoInput = document.querySelector('input[placeholder="Peso en kilogramos"]');
+const edadInput = document.querySelector('input[placeholder="Edad"]');
 const generoSelect = document.querySelector('select');
 const boton = document.querySelector('.boton-formulario');
 const categoriaTexto = document.getElementById('categoria-imc');

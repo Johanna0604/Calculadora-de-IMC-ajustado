@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bad+Script&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-@import url(./fontawesome-free-7.1.0-web/css/all.min.css);
+
 :root{
     --color-verdeIntenso: #016B61;
     --color-celeste: #70B2B2;
@@ -70,11 +70,7 @@ i {
     padding-right: 12px;
     align-items: center;
 }
-.col.img {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    }
+
 .form-group {
     margin-bottom: 6px;
 }
@@ -117,35 +113,70 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     margin-top: 0px;
     margin-bottom: 0px;
     margin-top: -80px;
-    margin-right: -100px;
+    margin-right: -80px;
+    position: relative;
 }
 .borde-img img {
   width: 75%;
   height: auto;
   object-fit: cover;
-  
-  
+}
+
+#categoria-imc {
+    position:absolute;
+    background-color: var(--color-amarillo);
+    border-radius: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 2rem;
+    bottom: -35px;
+    
 }
 
 
-
-.texto-curvo {
-  position: absolute;
-  display: inline-block;
-  width: 70%;
-  height: 70%;
-  pointer-events: none; /* para que no bloquee clics */
-  
-}
 .info {
     background-color: var(--color-amarillo);
     padding: 15px;
     border-radius: 20px;
 }
+.logo-github{
+    background-color: var(--color-verdeIntenso);
+    border-radius: 70%;
+    margin: 10px;
+    width: 50px;
+
+    
+}
+
+@media (max-width:600px){
+    .row{
+        flex-direction: column;
+        
+    }
+    .form-control{
+        width: 90%;
+    }
+
+    .borde-img{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -20px;
+        
+        
+    }
+    .borde-img {
+        width: 100%;
+    }
+    .padded{
+        padding-top:20px;
+    }
+    
+}
+
 
 
